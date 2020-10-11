@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PokemonApp</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Pokemons</string>
+    <string name="tab_text_2">Favourits</string>
+    <string name="network_error">Please,Check your network Connection</string>
+    <string name="retry">Retry</string>
+</resources>
