@@ -135,7 +135,7 @@ public class PokemonFragment extends Fragment {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void refreshPokemon() {
-        mPokemonBinding.pokemonRefresh.setColorSchemeColors(Color.WHITE);
+        mPokemonBinding.pokemonRefresh.setColorSchemeColors(Color.GRAY);
         mPokemonBinding.pokemonRefresh.setOnRefreshListener(() -> {
                     if (NetworkConnection.isOnline(requireContext())) {
                         initRecyclerView();
